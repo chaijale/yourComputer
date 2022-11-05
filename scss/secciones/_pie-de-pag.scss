@@ -1,0 +1,33 @@
+footer{
+    background-color: rgba(27, 4, 49, 0.932);
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      .fa-brands{
+        color: white;
+        padding: 10px;
+        &:hover{
+            color: #a467dd;
+        }
+      }
+      .footer-botton{
+        background-color: rgba(137, 43, 226, 0.432);
+        padding: 10px 0;
+        text-align: center;
+      }
+      p{
+        font-size: 15px;
+        word-spacing: 3px;
+      }
+      span{
+        color: #a467dd;
+      }
+  }

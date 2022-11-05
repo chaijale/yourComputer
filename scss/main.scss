@@ -1,0 +1,14 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 100%;
+  }
+
+
+@import './variables/mixin';
+  
+@import'./secciones/personalizacion-body';
+@import'./secciones/barra-de-nav';
+@import'./secciones/index-main';
+@import'./secciones/pie-de-pag';
+@import'./mediasquerys/mobile-first';
