@@ -7,10 +7,10 @@ main{
         color: blueviolet;
         @include fondo(16px);
       }
-      .galeria {
-        display: grid;
-        justify-items: center;
-        align-items: center;
-        margin-bottom: 100px;
-      }
+    h2{
+      color: white;
+    }
+    span{
+      color: white;
+    }
   }
