@@ -50,6 +50,7 @@ const miLocalStorage = window.localStorage;
 
 //renderizar todos los productos
 function renderizarProductos(array) {
+  DOMitems.innerHTML = ""
   array.forEach((info) => {
     const miNodo = document.createElement("div");
     miNodo.classList.add("card", "col-md-5","col-xl-3");
@@ -228,7 +229,7 @@ DOMbotonPagar.addEventListener("click", pagar);
 DOMsearch.addEventListener("keyup", (event) =>{
   const buscador = event.target.value;
   console.log(buscador);
-  const productoFiltrado = allProductos.filter(producto => producto.categoria.toLowerCase().includes(buscador.toLowerCase()));
+  const productoFiltrado = allProductos.filter(producto => producto.descripcion.toLowerCase().includes(buscador.toLowerCase()));
   console.log(productoFiltrado);
   renderizarProductos(productoFiltrado)
 
