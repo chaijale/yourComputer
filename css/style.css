@@ -98,7 +98,10 @@ footer {
     height: 20vh; }
   header .nav-link {
     font-size: 30px;
-    margin-left: 200px; }
+    margin-left: 50px; }
+  header .navbar-expand-lg .navbar-collapse {
+    flex-basis: auto;
+    justify-content: space-evenly; }
   main {
     min-height: 75vh; }
     main .banner-inicio {
